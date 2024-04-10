@@ -13,6 +13,7 @@ import ServiceList from "../services/ServiceList";
 import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
 import Testimonial from "../components/Testimonial/Testimonial";
+import Newsletter from "../shared/Newsletter";
 
 const Home = () => {
     return <>
@@ -148,6 +149,8 @@ const Home = () => {
         </Container>
     </section>
     {/* ==================== Testimonial  section end ========================== */}
+
+    <Newsletter />
     </>;   
 };
 
